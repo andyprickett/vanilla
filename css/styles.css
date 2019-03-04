@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+}
+
+.section {
+  border: 5px solid black;
+}
+
+.nav {
+  border: 5px solid green;
+}
+
+.article {
+  border: 5px solid red;
+}
+
+.aside {
+  border: 5px solid blue;
+}
+
+p {
+  color: grey;
+}
