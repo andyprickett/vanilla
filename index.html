@@ -9,58 +9,64 @@
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
   </head>
-  <body>
-    <header>
-      <h2>Page "index" (H2)</h2>
-      <section class="section">
-        <h3>"Vanilla" Site-wide Branding/Info Header (H3)</h3>
-        <nav class="nav">
-          <h4>Site-wide Nav (H4)</h4>
-          <ul>
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Other page 1</a></li>
-            <li><a href="#">Other page 2</a></li>
-          </ul>
-        </nav>
-      </section>
-    </header>
-    <main>
-      <article class="article">
-        <h1>Testing Vanilla HTML, CSS, and JavaScript (H1)</h1>
+  <body class="body">
+    <div class="top-container">
+      <header class="header">
+        <h2>Page "index" (H2)</h2>
         <section class="section">
-          <h2>What's Happening? (H2)</h2>
-          <p>This is the landing/home page for a site that will have many pages dedicated to building things with HTML, CSS and vanilla JavaScript. No frameworks. No libraries. No preprocessors.</p>
-          <h3>No Frameworks or Libraries (H3)</h3>
-          <p>Let's stumble through manipulating the DOM with pure JavaScript.</p>
-          <h3>No Preprocessors</h3>
-          <p>Let's also stumble through writing CSS without any help from preprocessors, and see how well we can do.</p>
+          <h3>"Vanilla" Site-wide Branding/Info Header (H3)</h3>
+          <nav class="nav">
+            <h4>Site-wide Nav (H4)</h4>
+            <ul>
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Other page 1</a></li>
+              <li><a href="#">Other page 2</a></li>
+            </ul>
+          </nav>
         </section>
+      </header>
+    </div>
+    <div class="middle-container">
+      <main class="main">
+        <article class="article">
+          <h1>Testing Vanilla HTML, CSS, and JavaScript (H1)</h1>
+          <section class="section">
+            <h2>What's Happening? (H2)</h2>
+            <p>This is the landing/home page for a site that will have many pages dedicated to building things with HTML, CSS and vanilla JavaScript. No frameworks. No libraries. No preprocessors.</p>
+            <h3>No Frameworks or Libraries (H3)</h3>
+            <p>Let's stumble through manipulating the DOM with pure JavaScript.</p>
+            <h3>No Preprocessors</h3>
+            <p>Let's also stumble through writing CSS without any help from preprocessors, and see how well we can do.</p>
+          </section>
+          <section class="section">
+            <h2>Why Is This Happening? (H2)</h2>
+            <p>Learning, fun, challenge, testing, playground, first-principles; whatever you want to call it.</p>
+            <h3>Semantics and Structure</h3>
+            <p>There is to be an attempt to use almost entirely semantic tags, and pay careful attention to the structure created with heading tags.</p>
+            <h3>Accessibility</h3>
+            <p>Finally, tyring to better understand what makes a page more accessible, mainly to screen readers.</p>
+          </section>
+        </article>
+      </main>
+      <aside class="aside">
+        <h2>Page Aside (H2)</h2>
         <section class="section">
-          <h2>Why Is This Happening? (H2)</h2>
-          <p>Learning, fun, challenge, testing, playground, first-principles; whatever you want to call it.</p>
-          <h3>Semantics and Structure</h3>
-          <p>There is to be an attempt to use almost entirely semantic tags, and pay careful attention to the structure created with heading tags.</p>
-          <h3>Accessibility</h3>
-          <p>Finally, tyring to better understand what makes a page more accessible, mainly to screen readers.</p>
+          <h3>Page Aside Section Header (H3)</h3>
+          <p>Content in Aside.</p>
         </section>
-      </article>
-    </main>
-    <aside class="aside">
-      <h2>Page Aside (H2)</h2>
-      <section class="section">
-        <h3>Page Aside Section Header (H3)</h3>
-        <p>Content in Aside.</p>
-      </section>
-    </aside>
-    <footer>
-      <section class="section">
-        <h2>Site-wide Footer (H2)</h2>
+      </aside>
+    </div>
+    <div class="bottom-container">
+      <footer class="footer">
         <section class="section">
-          <h3>Footer Section Header (H3)</h3>
-          <p>Content in Footer.</p>
+          <h2>Site-wide Footer (H2)</h2>
+          <section class="section">
+            <h3>Footer Section Header (H3)</h3>
+            <p>Content in Footer.</p>
+          </section>
         </section>
-      </section>
-    </footer>
-    <script type="text/javascript" src="js/script.js"></script>
+      </footer>
+    </div>
+    <script src="js/script.js"></script>
   </body>
 </html>

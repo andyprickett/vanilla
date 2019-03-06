@@ -97,26 +97,49 @@ textarea {
  /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-  
-  .section {
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.top-container {
+    flex: none;
+}
+
+.middle-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bottom-container {
+    flex: none;
+}
+
+.main {
+    flex: 1 1 auto;
+}
+
+.section {
     border: 5px solid black;
-  }
-  
-  .nav {
+}
+
+.nav {
     border: 5px solid green;
-  }
-  
-  .article {
+}
+
+.article {
     border: 5px solid red;
-  }
-  
-  .aside {
+}
+
+.aside {
     border: 5px solid blue;
-  }
-  
-  p {
+    flex: 100 1 0%;
+}
+
+p {
     color: grey;
-  }  
+}  
 
 
 
